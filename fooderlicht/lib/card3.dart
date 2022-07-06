@@ -61,6 +61,7 @@ class Card3 extends StatelessWidget {
             ),
             Center(
               child: Wrap(
+                runSpacing: 0,
                 alignment: WrapAlignment.start,
                 spacing: 10,
                 children: const [
